@@ -2,16 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import PageCharacters from './components/PageCharacters';
+import SpecificCharacter from './components/SpecificCharacter';
+import ErrorPage from './ErrorPage';
+
+import { BrowserRouter as Router,Routes, Route, Link} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<App/>}/>
+        <Route path='/page/:pageN' element={<PageCharacters/>}/>
+        <Route path='/character/:id' element={<SpecificCharacter/>}/>
+        <Route path='*' element={<ErrorPage/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
