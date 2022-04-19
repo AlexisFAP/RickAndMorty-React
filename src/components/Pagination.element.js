@@ -1,12 +1,12 @@
-import styledComponents from "styled-components";
+import styled from "styled-components";
 
-export const Container = styledComponents.div`
+export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #0077b6;
 `
-export const ButtonNavigation = styledComponents.button`
+export const ButtonNavigation = styled.button`
     border-radius: 10px;
     font-size: 1.2rem;
     background-color: #00B4D8;
@@ -17,7 +17,7 @@ export const ButtonNavigation = styledComponents.button`
     padding: 5px 10px;
 `
 
-export const TextNavigation = styledComponents.div`
+export const TextNavigation = styled.div`
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: bold;

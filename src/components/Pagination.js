@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from "react-icons/bs";
 
-import { Container, ButtonNavigation, TextNavigation } from './Navigation';
+import { Container, ButtonNavigation, TextNavigation } from './Pagination.element';
 
 function Pagination() {
     const { pageN } = useParams();

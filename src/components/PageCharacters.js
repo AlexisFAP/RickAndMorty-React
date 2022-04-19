@@ -19,7 +19,7 @@ function PageCharacters() {
     const fetchApi = async () => {
         const response = await fetch(`https://rickandmortyapi.com/api/character?page=${pageN}`);
         const json = await response.json();
-        json.results.map( x => x.type == "" ? x.type = "unkown":'');
+        json.results.map( x => x.type === "" ? x.type = "unkown":'');
         setCharacters(json.results)
       }
     

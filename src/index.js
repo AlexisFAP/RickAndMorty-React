@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import PageCharacters from './components/PageCharacters';
 import SpecificCharacter from './components/SpecificCharacter';
+import Navbar from './components/Navbar';
 import ErrorPage from './ErrorPage';
 
-import { BrowserRouter as Router,Routes, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <Navbar></Navbar>
       <Routes>
         <Route exact path='/' element={<App/>}/>
         <Route path='/page/:pageN' element={<PageCharacters/>}/>
