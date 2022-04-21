@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Container, TextContainer, ButtonError } from "./components/Error.element";
+import { Container, TextContainer, ButtonError } from "./components/style/Error.element";
 
 function ErrorPage() {
     const navigate = useNavigate();

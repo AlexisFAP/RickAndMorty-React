@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-import { ContainerSpecific, TextContainerSpecific, TextSpecific, TextBoxSpecific, ImgSpecific } from "./SpecificCharacter.element";
+import { ContainerSpecific, TextContainerSpecific, TextSpecific, TextBoxSpecific, ImgSpecific } from "./style/SpecificCharacter.element";
 
 function SpecificCharacter() {
     const [ person,setPerson ] = useState();

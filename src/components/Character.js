@@ -2,7 +2,7 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { ContainerCharacter, ImgCharacter, TextCharacter, TextContainerCharacter } from "./Character.element";
+import { ContainerCharacter, ImgCharacter, TextCharacter, TextContainerCharacter } from "./style/Character.element";
 
 function Character(props) {
     const navigate = useNavigate();

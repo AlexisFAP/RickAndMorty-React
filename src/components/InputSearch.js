@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { ContainerInput, InputContainerInput, ButtonContainerInput } from "./InputSearch.element";
+import { ContainerInput, InputContainerInput, ButtonContainerInput } from "./style/InputSearch.element";
 import {  BsSearch } from "react-icons/bs";
 
 function InputSearch() {
