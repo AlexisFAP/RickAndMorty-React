@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RickAndMorty-React/static/css/main.5ba872ef.css",
+    "main.js": "/RickAndMorty-React/static/js/main.ca612286.js",
+    "index.html": "/RickAndMorty-React/index.html",
+    "main.5ba872ef.css.map": "/RickAndMorty-React/static/css/main.5ba872ef.css.map",
+    "main.ca612286.js.map": "/RickAndMorty-React/static/js/main.ca612286.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ba872ef.css",
+    "static/js/main.ca612286.js"
+  ]
+}
